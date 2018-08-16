@@ -10,6 +10,8 @@ FILES=(
     /logs/identity-uw/audit.log
     /logs/access_log
     /logs/error_log
+    /logs/shib/shibboleth/transaction.log
+    /logs/shib/shibboleth/shibd_warn.log
 )
 FILES_CHANGED=
 ADDCRON=
