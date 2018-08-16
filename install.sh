@@ -225,7 +225,7 @@ absolute_path() {
 }
 
 usage() {
-    echo >&2 "usage: $0 [--help] [--add-cron] [--restart] [--credentials file] [target_directory]"
+    echo >&2 "usage: $0 [--help] [--add-cron] [--no-restart] [--credentials file] [target_directory]"
     return 1
 }
 
